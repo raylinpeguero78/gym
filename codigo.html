@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="codigo.css">
+    <link rel="shortcut icon" href="2.png" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>Registrarse</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo"> Registrarse</h1>
+        <form method="post" action="hey.php" id="myForm">
+
+            <label for="text">Nombre</label>
+            <input type="text" name="nombre" id="name" placeholder="Nombre">
+            <label for="text">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <label for="tel">Telefono</label>
+            <input type="tel" name="telefono" id="tel" placeholder="Telefono">
+            <label for="email">Correo electronico</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <label for="tiempo-meses">Inicio de el (reto):</label>
+            <input type="date" id="tiempo-meses" name="tiempo-meses" min="1" step="1">
+
+
+
+            <h2>Selecciona una opción de dinero y libras a quemar:</h2>
+
+            <label for="Dinero" >Dinero:</label>
+            <select id="Dinero" name="dinero">
+              <option value="10">10 dólares</option>
+              <option value="20">20 dólares</option>
+              <option value="30">30 dólares</option>
+              <option value="40">40 dólares</option>
+              <option value="50">50 dólares</option>
+              <option value="60">60 dólares</option>
+              <option value="70">70 dólares</option>
+              <option value="80">80 dólares</option>
+              <option value="90">90 dólares</option>
+              <option value="100">100 dólares</option>
+              <option value="110">110 dólares</option>
+              <option value="120">120 dólares</option>
+              <option value="130">130 dólares</option>
+              <option value="140">140 dólares</option>
+              <option value="150">150 dólares</option>
+              <option value="160">160 dólares</option>
+              <option value="170">170 dólares</option>
+              <option value="180">180 dólares</option>
+              <option value="190">190 dólares</option>
+              <option value="200">200 dólares</option>
+              <option value="210">210 dólares</option>
+              <option value="220">220 dólares</option>
+              <option value="230">230 dólares</option>
+              <option value="240">240 dólares</option>
+              <option value="250">250 dólares</option>
+              <option value="260">260 dólares</option>
+              <option value="270">270 dólares</option>
+              <option value="280">280 dólares</option>
+              <option value="290">290 dólares</option>
+              <option value="300">300 dólares</option>
+              <option value="310">310 dólares</option>
+              <option value="320">320 dólares</option>
+              <option value="330">330 dólares</option>
+              <option value="340">340 dólares</option>
+              <option value="350">350 dólares</option>
+              <option value="360">360 dólares</option>
+              <option value="370">370 dólares</option>
+              <option value="380">380 dólares</option>
+              <option value="390">390 dólares</option>
+              <option value="400">400 dólares</option>
+              <option value="410">410 dólares</option>
+              <option value="420">420 dólares</option>
+              <option value="430">430 dólares</option>
+              <option value="440">440 dólares</option>
+              <option value="450">450 dólares</option>
+              <option value="460">460 dólares</option>
+              <option value="470">470 dólares</option>
+              <option value="480">480 dólares</option>
+              <option value="490">490 dólares</option>
+              <option value="500">500 dólares</option>
+              <option value="510">510 dólares</option>
+              <option value="520">520 dólares</option>
+              <option value="530">530 dólares</option>
+              <option value="540">540 dólares</option>
+              <option value="550">550 dólares</option>
+              <option value="560">560 dólares</option>
+              <option value="570">570 dólares</option>
+              <option value="580">580 dólares</option>
+              <option value="590">590 dólares</option>
+              <option value="600">600 dólares</option>
+              <option value="610">610 dólares</option>
+              <option value="620">620 dólares</option>
+              <option value="630">630 dólares</option>
+              <option value="640">640 dólares</option>
+              <option value="650">650 dólares</option>
+              <option value="660">660 dólares</option>
+              <option value="670">670 dólares</option>
+              <option value="680">680 dólares</option>
+              <option value="690">690 dólares</option>
+              <option value="700">700 dólares</option>
+              <option value="710">710 dólares</option>
+              <option value="720">720 dólares</option>
+              <option value="730">730 dólares</option>
+              <option value="740">740 dólares</option>
+              <option value="750">750 dólares</option>
+              <option value="760">760 dólares</option>
+              <option value="770">770 dólares</option>
+              <option value="780">780 dólares</option>
+              <option value="790">790 dólares</option>
+              <option value="800">800 dólares</option>
+              <option value="810">810 dólares</option>
+              <option value="820">820 dólares</option>
+              <option value="830">830 dólares</option>
+              <option value="840">840 dólares</option>
+              <option value="850">850 dólares</option>
+              <option value="860">860 dólares</option>
+              <option value="870">870 dólares</option>
+              <option value="880">880 dólares</option>
+              <option value="890">890 dólares</option>
+              <option value="900">900 dólares</option>
+              <option value="910">910 dólares</option>
+              <option value="920">920 dólares</option>
+              <option value="930">930 dólares</option>
+              <option value="940">940 dólares</option>
+              <option value="950">950 dólares</option>
+              <option value="960">960 dólares</option>
+              <option value="970">970 dólares</option>
+              <option value="980">980 dólares</option>
+              <option value="990">990 dólares</option>
+              <option value="1000">1000 dólares</option>
+           
+            </select>
+          
+            <label for="Libras" >Libras a quemar:</label>
+            <select id="Libras" name="libras">
+              <option value="1">1 libras</option>
+              <option value="2">2 libras</option>
+              <option value="3">3 libras</option>
+              <option value="4">4 libras</option>
+              <option value="5">5 libras</option>
+              <option value="6">6 libras</option>
+              <option value="7">7 libras</option>
+              <option value="8">8 libras</option>
+              <option value="9">9 libras</option>
+              <option value="10">10 libras</option>
+              <option value="11">11 libras</option>
+              <option value="12">12 libras</option>
+              <option value="13">13 libras</option>
+              <option value="14">14 libras</option>
+              <option value="15">15 libras</option>
+              <option value="16">16 libras</option>
+              <option value="17">17 libras</option>
+              <option value="18">18 libras</option>
+              <option value="19">19 libras</option>
+              <option value="20">20 libras</option>
+              <option value="21">21 libras</option>
+              <option value="22">22 libras</option>
+              <option value="23">23 libras</option>
+              <option value="24">24 libras</option>
+              <option value="25">25 libras</option>
+              <option value="26">26 libras</option>
+              <option value="27">27 libras</option>
+              <option value="28">28 libras</option>
+              <option value="29">29 libras</option>
+              <option value="30">30 libras</option>
+              <option value="31">31 libras</option>
+              <option value="32">32 libras</option>
+              <option value="33">33 libras</option>
+              <option value="34">34 libras</option>
+              <option value="35">35 libras</option>
+              <option value="36">36 libras</option>
+              <option value="37">37 libras</option>
+              <option value="38">38 libras</option>
+              <option value="39">39 libras</option>
+              <option value="40">40 libras</option>
+              <option value="41">41 libras</option>
+              <option value="42">42 libras</option>
+              <option value="43">43 libras</option>
+              <option value="44">44 libras</option>
+              <option value="45">45 libras</option>
+              <option value="46">46 libras</option>
+              <option value="47">47 libras</option>
+              <option value="48">48 libras</option>
+              <option value="49">49 libras</option>
+              <option value="50">50 libras</option>
+              <option value="51">51 libras</option>
+              <option value="52">52 libras</option>
+              <option value="53">53 libras</option>
+              <option value="54">54 libras</option>
+              <option value="55">55 libras</option>
+              <option value="56">56 libras</option>
+              <option value="57">57 libras</option>
+              <option value="58">58 libras</option>
+              <option value="59">59 libras</option>
+              <option value="60">60 libras</option>
+              <option value="61">61 libras</option>
+              <option value="62">62 libras</option>
+              <option value="63">63 libras</option>
+              <option value="64">64 libras</option>
+              <option value="65">65 libras</option>
+              <option value="66">66 libras</option>
+              <option value="67">67 libras</option>
+              <option value="68">68 libras</option>
+              <option value="69">69 libras</option>
+              <option value="70">70 libras</option>
+              <option value="71">71 libras</option>
+              <option value="72">72 libras</option>
+              <option value="73">73 libras</option>
+              <option value="74">74 libras</option>
+              <option value="75">75 libras</option>
+              <option value="76">76 libras</option>
+              <option value="77">77 libras</option>
+              <option value="78">78 libras</option>
+              <option value="79">79 libras</option>
+              <option value="80">80 libras</option>
+              <option value="81">81 libras</option>
+              <option value="82">82 libras</option>
+              <option value="83">83 libras</option>
+              <option value="84">84 libras</option>
+              <option value="85">85 libras</option>
+              <option value="86">86 libras</option>
+              <option value="87">87 libras</option>
+              <option value="88">88 libras</option>
+              <option value="89">89 libras</option>
+              <option value="90">90 libras</option>
+              <option value="91">91 libras</option>
+              <option value="92">92 libras</option>
+              <option value="93">93 libras</option>
+              <option value="94">94 libras</option>
+              <option value="95">95 libras</option>
+              <option value="96">96 libras</option>
+              <option value="97">97 libras</option>
+              <option value="98">98 libras</option>
+              <option value="99">99 libras</option>
+              <option value="100">100 libras</option>
+             
+            </select>
+
+
+            <label for="Semanas" >Semanas:</label>
+            <select id="Semanas" name="semanas">
+              <option value="1">1 Semanas</option>
+              <option value="2">2 semanas</option>
+              <option value="3">3 semanas</option>
+              <option value="4">4 Semanas</option>
+              <option value="5">5 semanas</option>
+              <option value="6">6 semanas</option>
+              <option value="7">7 Semanas</option>
+              <option value="8">8 semanas</option>
+              <option value="9">9 semanas</option>
+              <option value="10">10 Semanas</option>
+              <option value="11">11 semanas</option>
+              <option value="12">12 semanas</option>
+              <option value="13">13 Semanas</option>
+              <option value="14">14 semanas</option>
+              <option value="15">15 semanas</option>
+              <option value="16">16 semanas</option>
+              <option value="17">17 semanas</option>
+              <option value="18">18 semanas</option>
+              <option value="19">19 Semanas</option>
+              <option value="20">20 semanas</option>
+              <option value="21">21 semanas</option>
+              <option value="22">22 Semanas</option>
+              <option value="23">23 semanas</option>
+              <option value="24">24 semanas</option>
+              <option value="25">25 Semanas</option>
+              <option value="26">26 semanas</option>
+              <option value="27">27 semanas</option>
+              <option value="28">28 Semanas</option>
+              <option value="29">29 semanas</option>
+              <option value="30">30 Semanas</option>
+              <option value="31">31 semanas</option>
+              <option value="32">32 semanas</option>
+              <option value="33">33 semanas</option>
+              <option value="34">34 semanas</option>
+              <option value="35">35 Semanas</option>
+              <option value="36">36 semanas</option>
+              <option value="37">37 semanas</option>
+              <option value="38">38 Semanas</option>
+              <option value="39">39 semanas</option>
+              <option value="40">40 semanas</option>
+              <option value="41">41 Semanas</option>
+              <option value="42">42 semanas</option>
+              <option value="43">43 semanas</option>
+              <option value="44">44 Semanas</option>
+              <option value="45">45 semanas</option>
+              <option value="46">46 semanas</option>
+              <option value="47">47 semanas</option>
+             <option value="48">48 semanas</option>
+             <option value="49">49 Semanas</option>
+              <option value="50">50 semanas</option>
+              <option value="51">51 semanas</option>
+              <option value="52">52 semanas</option>
+              <option value="53">53 Semanas</option>
+              <option value="54">54 semanas</option>
+              <option value="55">55 semanas</option>
+              <option value="56">56 Semanas</option>
+              <option value="57">57 semanas</option>
+              <option value="58">58 semanas</option>
+              <option value="59">59 Semanas</option>
+              <option value="60">60 semanas</option>
+              <option value="61">61 semanas</option>
+              <option value="62">62 semana</option>
+              <option value="63">63 semanas</option>
+              <option value="64">64 semanas</option>
+              <option value="65">65 Semanas</option>
+              <option value="66">66 semanas</option>
+              <option value="67">67 semanas</option>
+              <option value="68">68 semanas</option>
+              <option value="69">69 semanas</option>
+              <option value="70">70 semanas</option>
+              <option value="71">71 semana</option>
+              <option value="72">72 semanas</option>
+              <option value="73">73 semanas</option>
+              <option value="74">74 Semanas</option>
+              <option value="75">75 semanas</option>
+              <option value="76">76 semanas</option>
+              <option value="77">77 Semanas</option>
+              <option value="78">78 semanas</option>
+              <option value="79">79 semanas</option>
+              <option value="80">80 Semanas</option>
+              <option value="81">81 semanas</option>
+              <option value="82">82 semanas</option>
+              <option value="83">83 semanas</option>
+              <option value="84">84 semanas</option>
+              <option value="85">85 semanas</option>
+              <option value="86">86 Semanas</option>
+              <option value="87">87 semanas</option>
+              <option value="88">88 semanas</option>
+              <option value="89">89 Semanas</option>
+              <option value="90">90 semanas</option>
+              <option value="91">91 semanas</option>
+              <option value="92">92 Semanas</option>
+              <option value="93">93 semanas</option>
+              <option value="94">94 semanas</option>
+              <option value="95">95 Semanas</option>
+              <option value="96">96 semanas</option>
+              <option value="97">97 semanas</option>
+              <option value="98">98 semanas</option>
+             <option value="99">99 semanas</option>
+             <option value="100">100 Semanas</option>
+            
+              <!-- Puedes agregar más opciones según lo desees -->
+            </select>
+
+
+
+
+
+          
+           <input type="submit" value="Enviar" id="Enviar">
+
+            <p id="resultado"></p>
+ 
+          </form>
+          
+          <a href="pago.html"> <button   >Ultimo paso </button></a>
+
+              
+
+           
+    
+ 
+
+
+
+
+
+            
+
+        </form>
+
+   
+
+        <div class="caja">
+        
+          <p >  &#x26A1;</p>
+          
+          
+    </div>
+      </div>
+
+
+
+
+
+<script src="codigo.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+body  {
+  background-image: url(1.png) ;
+
+  
+height: 100vh; 
+ 
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+
+}
+
+
+
+
+
+
+
+
+
+.container {
+
+  color: #fff;
+  text-align: center;
+ 
+}
+
+
+p {
+  font-size: 18px;
+  text-shadow: 0 -0.05em 0 rgba(50, 0, 0, 0.70);
+  box-shadow: rgba(50, 0, 0, 0.70); ;
+
+}
+
+button {
+  text-transform: capitalize;
+  border-radius: 0;
+  position: relative;
+  min-width: 14em;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  border: 0;
+  background: #fcd40e;
+  text-align: center;
+  padding: 1em 2em;
+  -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  padding-top: 1.25em;
+  padding-bottom: 1.5em;
+  text-shadow: 0 -0.05em 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.25em;
+  outline: none;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #f7b20b;
+}
+
+.logo {
+  background-color: #333;
+  padding: 12 px ;
+  color: #fefafa;
+  text-shadow: 0 0 5px rgba(245, 243, 243, 0.9);
+      
+            
+               font-size: 33px;
+               font-family: sans-serif;
+               
+            
+
+}
+h4{
+  font-size: 23px;
+  font-family: 'Arial', sans-serif;
+  color: #fefafa;
+  text-shadow: 0 0 5px rgba(245, 243, 243, 0.9),
+               0 0 10px rgba(23, 19, 19, 0.7),
+               0 0 15px rgba(255, 255, 255, 0.5),
+               0 0 20px rgba(244, 238, 238, 0.3),
+               0 0 25px rgba(242, 242, 242, 0.1);
+}
+
+.caja{
+  text-transform: capitalize;
+  border-radius: 0;
+  position: relative;
+  min-width: 1em;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  border: 0;
+  background: #fcd40e;
+  text-align: center;
+  padding: 1em 1em;
+  -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+  border: 1px solid rgb(7, 7, 7);
+  color: rgb(7, 25, 25);
+  background-color: rgb(221, 218, 15);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+ justify-content: center;
+  margin: 1px;
+  max-width: 70%;
+  margin-top: -140px;
+  animation: holafloat 3s infinite ease-in-out;
+  display: flex;
+  align-items: center;
+}
+.caja:hover{
+  background-color: #f7b20b;
+}
+
+@keyframes holafloat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.105);
+    -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.105);
+    -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.105);
+    -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.1055);
+    box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.105);
+ 
+
+   
+  }
+}

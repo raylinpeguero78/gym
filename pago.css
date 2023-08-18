@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+  }
+  
+  body {
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 16px;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .container {
+  
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  p {
+    font-size: 18px;
+    
+  }
+  
+  button {
+    text-transform: capitalize;
+    border-radius: 0;
+    position: relative;
+    min-width: 14em;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 0;
+    background: #0881c7;
+    text-align: center;
+    padding: 1em 2em;
+    -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    padding-top: 1.25em;
+    padding-bottom: 1.5em;
+    text-shadow: 0 -0.05em 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.25em;
+    outline: none;
+    font-weight: 500;
+    animation: holafloat 3s ease-in-out infinite;
+  }
+
+  
+  @keyframes holafloat {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #39a3ee;
+  }
+  
+  .logo {
+    background-color: #333;
+    padding: 10px ;
+    font-size: 40px;
+    
+  
+  }
+  .logo2{
+    color: rgb(251, 251, 246);
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 0;
+    position: relative;
+    min-width: 10em;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 0;
+    background: #c71e08;
+    text-align: center;
+    padding: 1em 1em;
+    -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    padding-top: 1.19em;
+    padding-bottom: 1.1em;
+    text-shadow: 0 -0.05em 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.25em;
+    outline: none;
+    width: 40%;
+    
+  }
+
+
+
+  .caja{
+    text-transform: capitalize;
+    border-radius: 0;
+    position: relative;
+    min-width: 1em;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    border: 0;
+  
+    text-align: center;
+    padding: 1em 1em;
+    -webkit-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -khtml-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0 -0.5em rgba(0, 0, 0, 0.35);
+    border: 1px solid rgb(7, 7, 7);
+    color: rgb(7, 25, 25);
+    background-color:#c71e08;;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   justify-content: center;
+    margin: 1px;
+    max-width: 70%;
+    margin-top: -100px;
+    animation: holafloat 3s infinite ease-in-out;
+    display: flex;
+    align-items: center;
+  
+  }
+  .caja:hover{
+    background-color: #1c1e09;
+  }
+  @keyframes holafloat {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+  
+
+
+
+
+
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size:  1.7em;
+    }
+  
+    p {
+      font-size:  1.7em;
+    }
+  
+    body {
+      background-size: cover;
+      height: 130vh;
+     
+    }
+    .logo2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+font-size: 9px;      
+      
+      width: 60%;
+
+    }
+  }
+  
